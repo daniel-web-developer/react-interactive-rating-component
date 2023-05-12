@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-size: 18px;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --lgrey: hsl(217, 12%, 63%);
+  --mgrey: hsl(216, 12%, 54%);
+  --dblue: hsl(213, 19%, 18%);
+  --vdblue: hsl(216, 12%, 8%);
+}/*# sourceMappingURL=style.css.map */

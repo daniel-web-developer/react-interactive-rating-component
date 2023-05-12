@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Sass boilerplate
+
+I've created this repository to speed up my projects because the initial configuration takes some precious minutes.
+
+How to use: the best way for me is to ```git pull``` this into a folder called /scss/ on the project's root folder.
+
+I use Sass on [VS Code](https://code.visualstudio.com/) alongside the [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass).
+
+Godspeed!
+>>>>>>> 458885d8b6da07a33b0dd1a7db2fa38adee8da4e
