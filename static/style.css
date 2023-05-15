@@ -47,19 +47,11 @@ body {
 .main-content {
   padding: 35px;
 }
-@keyframes colour {
-  0% {
-    background: var(--mgrey);
-  }
-  100% {
-    background: var(--dblue);
-  }
-}
 .main-icon {
   padding: 15px;
   background: var(--mgrey);
   border-radius: 50px;
-  animation: colour 1000ms -800ms forwards paused;
+  background-color: var(--dgrey);
 }
 
 .texts-title {
@@ -75,15 +67,16 @@ body {
 }
 
 .buttons {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .buttons-each {
   height: 50px;
   width: 50px;
   border-radius: 50px;
+  border: none;
   color: var(--lgrey);
-  animation: colour 1000ms -800ms forwards paused;
+  background-color: var(--dgrey);
   cursor: pointer;
   transition: all 250ms ease-in-out !important;
 }
@@ -91,7 +84,8 @@ body {
   background-color: var(--lgrey) !important;
   color: var(--white);
 }
-.buttons-each-active {
+
+.active {
   background-color: #e5e7ea;
   color: var(--orange);
 }
@@ -135,9 +129,13 @@ body {
     font-size: 0.94rem;
     line-height: 1.5rem;
   }
+  .buttons {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
   .buttons-each {
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
   }
   .submit {
     height: 45px;
@@ -154,4 +152,5 @@ body {
   --mgrey: hsl(216, 12%, 54%);
   --dblue: hsl(213, 19%, 18%);
   --vdblue: hsl(216, 12%, 8%);
+  --dgrey: hsl(213, 19%, 19%);
 }/*# sourceMappingURL=style.css.map */

@@ -20,15 +20,13 @@ function Texts(){
 function Buttons(){
 
   let numbers = [];
-
+  
   for(var i = 0; i <= 4; i++){
     numbers[i] = i + 1;
-  }
+  }  
 
   const buttons = numbers.map((number) =>
-    <div id={number.toString()} className="flex flex-justcont-c flex-alignit-c button-colours buttons-each">
-      <div key={number.toString()}>{number}</div>
-    </div>
+      <button key={number.toString()} className="flex flex-justcont-c flex-alignit-c buttons buttons-each">{number}</button>
   );
 
   return(
