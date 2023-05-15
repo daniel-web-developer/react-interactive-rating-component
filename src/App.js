@@ -26,7 +26,7 @@ function Buttons(){
   }  
 
   const buttons = numbers.map((number) =>
-      <button key={number.toString()} className="flex flex-justcont-c flex-alignit-c buttons buttons-each">{number}</button>
+      <button id={number.toString()} key={number.toString()} className="flex flex-justcont-c flex-alignit-c buttons buttons-each">{number}</button>
   );
 
   return(
