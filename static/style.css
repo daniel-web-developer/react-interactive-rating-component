@@ -67,8 +67,9 @@ body {
 }
 
 .buttons {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
 }
 .buttons-each {
   height: 50px;
@@ -84,10 +85,22 @@ body {
   background-color: var(--lgrey) !important;
   color: var(--white);
 }
+.buttons-each-active {
+  background-color: var(--orange);
+  color: #e5e7ea;
+}
+.buttons-each-active:hover {
+  background-color: var(--orange) !important;
+  color: #e5e7ea !important;
+}
 
 .active {
-  background-color: #e5e7ea;
-  color: var(--orange);
+  background-color: var(--orange);
+  color: #e5e7ea;
+}
+.active:hover {
+  background-color: var(--orange) !important;
+  color: #e5e7ea !important;
 }
 
 .submit {

@@ -1,5 +1,4 @@
 import './style.css';
-
 import star from './images/icon-star.svg';
 
 function Icon(){
@@ -20,17 +19,43 @@ function Texts(){
 function Buttons(){
 
   let numbers = [];
+  var value;
   
   for(var i = 0; i <= 4; i++){
     numbers[i] = i + 1;
-  }  
+  }
 
+  
+  const changeActive = event => {
+    
+    const buttonsSelector = document.querySelectorAll(".buttons-each");
+    
+    if(value == null){
+      event.currentTarget.classList.add("active");
+      value = event.currentTarget.id;
+      console.log(value);
+    }
+    else if(value !== null & value !== event.currentTarget.id){
+      buttonsSelector.forEach(buttonSelector => {
+        buttonSelector.classList.remove("active");
+      })
+      event.currentTarget.classList.add("active");
+      value = event.currentTarget.id;
+      console.log(value);
+    }
+    else if(value !== null & value === event.currentTarget.id){
+      event.currentTarget.classList.remove("active");
+      value = null;
+      console.log(value);
+    }
+  }
+  
   const buttons = numbers.map((number) =>
-      <button id={number.toString()} key={number.toString()} className="flex flex-justcont-c flex-alignit-c buttons buttons-each">{number}</button>
+      <button key={number.toString()} id={number} className="flex flex-justcont-c flex-alignit-c buttons buttons-each" onClick={changeActive}>{number}</button>
   );
 
   return(
-    <div class="flex flex-justcont-sa buttons">
+    <div className="flex flex-justcont-sa buttons">
       {buttons}
     </div>
   )
