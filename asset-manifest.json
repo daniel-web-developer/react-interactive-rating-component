@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-interactive-rating-component/static/css/main.3f2d44e7.css",
+    "main.js": "/react-interactive-rating-component/static/js/main.621447fc.js",
+    "static/js/787.652de61e.chunk.js": "/react-interactive-rating-component/static/js/787.652de61e.chunk.js",
+    "static/media/illustration-thank-you.svg": "/react-interactive-rating-component/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/react-interactive-rating-component/index.html",
+    "static/media/icon-star.svg": "/react-interactive-rating-component/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
+    "main.3f2d44e7.css.map": "/react-interactive-rating-component/static/css/main.3f2d44e7.css.map",
+    "main.621447fc.js.map": "/react-interactive-rating-component/static/js/main.621447fc.js.map",
+    "787.652de61e.chunk.js.map": "/react-interactive-rating-component/static/js/787.652de61e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f2d44e7.css",
+    "static/js/main.621447fc.js"
+  ]
+}
