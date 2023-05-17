@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-
+![image](https://github.com/daniel-web-developer/react-interactive-rating-component/assets/107224353/0d658b87-4269-4ead-b012-81148ba40e20)
 
 ### Links
 
